@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <div class="row">
+        <div class="logo-row">
+          <img src="LOGO.png" alt="logo" class="logo">
+        </div>
+      </div>
+    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+           <h3 class="username">Thank you for taking the Industry 4.0 Readiness Test, <span class="name"></span>!    </h3>
+           <p class="userpoints"> Leadership and Budgeting Score: <span class="points"></span> out of 28 </p>
+           <p class="userpoints"> Organisation Technical Skill Set Score: <span class="points1"></span> out of 12 </p>
+           <p class="userpoints">Data Treatment Score: <span class="points2"></span> out of 32 </p>
+           <p class="userpoints">Machine Capability Score: <span class="points3"></span> out of 20 </p>
+        </div>
+        <div id='myDiv'><!-- Plotly chart will be drawn inside this DIV -->></div>
+    </div>
+    <!-- <div id="container"></div> -->
+    <!-- <script src="https://kit.fontawesome.com/d56261bbb9.js"></script> -->
+        <!-- user info -->
+        <script src="js/userInfo.js"></script>
+</body>
+</html>
